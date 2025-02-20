@@ -5,7 +5,7 @@ import random
 pygame.init()
 
 # Configuración de la pantalla
-ANCHO, ALTO = 600, 700
+ANCHO, ALTO = 900, 700
 pantalla = pygame.display.set_mode((ANCHO, ALTO))
 pygame.display.set_caption("Juego de Carreras Retro")
 
