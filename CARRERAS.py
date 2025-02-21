@@ -99,7 +99,7 @@ def juego():
     jugador1 = Jugador(ANCHO // 3 - 25, ALTO - 150, coche_jugador)
     jugador2 = Jugador(2 * ANCHO // 3 - 25, ALTO - 150, coche_oponente)
     nivel = 1
-    velocidad_obstaculos = 5
+    velocidad_obstaculos = 5 + (nivel * 0.5)
     obstaculos = [Obstaculo(velocidad_obstaculos)]
     corriendo = True
     pantalla_inicio()
